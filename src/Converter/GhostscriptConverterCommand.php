@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FabianoGaldino\PDFVersionConverter\Converter;
+namespace AscTeam\PDFVersionConverter\Converter;
 
 use Symfony\Component\Process\Process;
 
