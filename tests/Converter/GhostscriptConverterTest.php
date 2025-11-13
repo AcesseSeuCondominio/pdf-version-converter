@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace FabianoGaldino\PDFVersionConverter\Converter;
+namespace AscTeam\PDFVersionConverter\Converter;
 
 use PHPUnit\Framework\TestCase;
 
@@ -56,7 +56,7 @@ class GhostscriptConverterTest extends TestCase
             ->shouldBeCalled()
         ;
 
-        $command = $this->prophesize('FabianoGaldino\PDFVersionConverter\Converter\GhostscriptConverterCommand');
+        $command = $this->prophesize('AscTeam\PDFVersionConverter\Converter\GhostscriptConverterCommand');
         $command->run(
             $file,
             Argument::type('string'),
